@@ -70,6 +70,7 @@ class UwaziiClient{
     }
     /*** Get access token
         Params -USERNAME, PASSWORD
+        Returns access token
     ***/
     public function accessToken($username,$password){
         $this->username = $username;
