@@ -1,0 +1,17 @@
+{
+    "name": "uwaziimobile/uwazii-php",
+    "description": "Uwazii Mobile PHP Bindings",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Uwaziimobile\\UwaziiPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Moses Pandi"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
