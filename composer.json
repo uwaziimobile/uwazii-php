@@ -12,6 +12,10 @@
             "name": "Moses Pandi"
         }
     ],
+<<<<<<< HEAD
+    "minimum-stability": "dev",
+=======
     "minimum-stability": "main",
+>>>>>>> 2aed8cb489207642eb9869ef07581e0f1d7c69e0
     "require": {}
 }
