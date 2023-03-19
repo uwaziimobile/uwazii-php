@@ -46,6 +46,7 @@ If you use Composer, these dependencies should be handled automatically. If you 
 Simple usage looks like:
 
 ```php
+use Uwazii\UwaziiClient as Uwaziimobile;
 $uwazii = new \Stripe\Uwaziimobile();
 $access_token = $uwazii->accessToken(YOUR_USERNAME,YOUR_PASSWORD);
 $response = $uwazii->sendMessage($access_token,'SENDERID','PHONE','MESSAGE');
