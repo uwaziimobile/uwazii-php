@@ -11,7 +11,7 @@ PHP 5.6.0 and later.
 
 ## Manual Installation
 
-You can download the [latest release](https://github.com/uwaziimobile/uwazii-php). Then, to use the bindings, include the `index.php` file.
+You can download the [latest release](https://github.com/uwaziimobile/uwazii-php/releases). Then, to use the bindings, include the `index.php` file.
 
 ```php
 require_once '/path/to/uwazii-php/src/Uwaziiclient.php';
