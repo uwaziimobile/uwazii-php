@@ -9,26 +9,14 @@ responses.
 
 PHP 5.6.0 and later.
 
-## Composer
-
-You can install the bindings via [Composer](http://getcomposer.org/). Run the following command:
-
-```bash
-composer require uwaziimobile/uwazii-php
-```
-
-To use the bindings, use Composer's [autoload](https://getcomposer.org/doc/01-basic-usage.md#autoloading):
-
-```php
-require_once 'vendor/autoload.php';
 ```
 
 ## Manual Installation
 
-If you do not wish to use Composer, you can download the [latest release](https://github.com/uwaziimobile/uwazii-php). Then, to use the bindings, include the `index.php` file.
+You can download the [latest release](https://github.com/uwaziimobile/uwazii-php). Then, to use the bindings, include the `index.php` file.
 
 ```php
-require_once '/path/to/uwazii-php/src/index.php';
+require_once '/path/to/uwazii-php/src/Uwaziiclient.php';
 ```
 
 ## Dependencies
