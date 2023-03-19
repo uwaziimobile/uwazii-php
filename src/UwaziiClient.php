@@ -16,7 +16,7 @@ class UwaziiClient{
         Method - POST
         Params - Access token, senderid, phone = array(), message
     ***/
-    public function sendMessage($token,$from,$phone,$message){
+    public static function sendMessage($token,$from,$phone,$message){
         if($token != $this->access_token){
             throw new Exception('Invalid access token');
         }
@@ -72,7 +72,7 @@ class UwaziiClient{
         Params -USERNAME, PASSWORD
         Returns access token
     ***/
-    public function accessToken($username,$password){
+    public static function accessToken($username,$password){
         $this->username = $username;
         $this->password = $password;
 
