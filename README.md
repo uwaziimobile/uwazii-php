@@ -47,7 +47,7 @@ Simple usage looks like:
 
 ```php
 use Uwazii\UwaziiClient as Uwaziimobile;
-$uwazii = new \Stripe\Uwaziimobile();
+$uwazii = new \Uwaziimobile();
 $access_token = $uwazii->accessToken(YOUR_USERNAME,YOUR_PASSWORD);
 $response = $uwazii->sendMessage($access_token,'SENDERID','PHONE','MESSAGE');
 
