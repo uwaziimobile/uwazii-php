@@ -1,8 +1,8 @@
-# UwaziiMOBILE PHP bindings
+# Uwazii MOBILE PHP bindings
 
 
 
-The UwaziiMOBILE PHP library provides convenient access to the Uwazii API from
+The Uwazii MOBILE PHP library provides convenient access to the Uwazii API from
 applications written in the PHP language. It includes a pre-defined set of
 classes for API resources that initialize themselves dynamically from API
 responses.
