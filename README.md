@@ -14,7 +14,7 @@ PHP 5.6.0 and later.
 You can download the [latest release](https://github.com/uwaziimobile/uwazii-php/releases). Then, to use the bindings, include the main file.
 
 ```php
-require_once '/path/to/uwazii-php/src/Uwaziiclient.php';
+require_once '/path/to/uwazii-php/src/UwaziiClient.php';
 ```
 
 ## Dependencies
