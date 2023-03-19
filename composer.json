@@ -12,6 +12,6 @@
             "name": "Moses Pandi"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "main",
     "require": {}
 }
