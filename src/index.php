@@ -70,6 +70,7 @@ class UwaziiClient{
     }
     /*** Get access token
         Params -USERNAME, PASSWORD
+        Returns access token
     ***/
     public function accessToken($username,$password){
         $this->username = $username;
@@ -95,7 +96,6 @@ class UwaziiClient{
         $this->access_token = $access_token;
         return $access_token;   
     }
-    
     private function curl_request($function,$parameters=array(),$resource_id=''){
         $curl_handle = curl_init();
         switch($function){
